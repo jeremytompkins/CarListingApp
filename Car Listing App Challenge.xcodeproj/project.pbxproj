@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE128A7A28A26B2E00A7155E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BE128A7928A26B2E00A7155E /* README.md */; };
 		BE5444D128A1BCFD00E0A14B /* FilterSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5444D028A1BCFD00E0A14B /* FilterSheetView.swift */; };
 		BE7004BA289F507B00D3B197 /* CarListingChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7004B9289F507B00D3B197 /* CarListingChallengeApp.swift */; };
 		BE7004BC289F507B00D3B197 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7004BB289F507B00D3B197 /* ContentView.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE128A7928A26B2E00A7155E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		BE5444D028A1BCFD00E0A14B /* FilterSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSheetView.swift; sourceTree = "<group>"; };
 		BE7004B6289F507B00D3B197 /* Car Listing App Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Car Listing App Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE7004B9289F507B00D3B197 /* CarListingChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListingChallengeApp.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 		BE7004AD289F507A00D3B197 = {
 			isa = PBXGroup;
 			children = (
+				BE128A7928A26B2E00A7155E /* README.md */,
 				BE7004B8289F507B00D3B197 /* Car Listing App Challenge */,
 				BE7004B7289F507B00D3B197 /* Products */,
 			);
@@ -191,6 +194,7 @@
 			files = (
 				BE7004C1289F507E00D3B197 /* Preview Assets.xcassets in Resources */,
 				BE7004C9289F53FD00D3B197 /* car_list.json in Resources */,
+				BE128A7A28A26B2E00A7155E /* README.md in Resources */,
 				BEAA3271289FF18E00ABACD9 /* Cars.xcassets in Resources */,
 				BE7004BE289F507E00D3B197 /* Assets.xcassets in Resources */,
 			);
