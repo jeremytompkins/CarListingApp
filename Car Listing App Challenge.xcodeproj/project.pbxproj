@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE7004BA289F507B00D3B197 /* Car_Listing_App_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7004B9289F507B00D3B197 /* Car_Listing_App_ChallengeApp.swift */; };
+		BE5444D128A1BCFD00E0A14B /* FilterSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5444D028A1BCFD00E0A14B /* FilterSheetView.swift */; };
+		BE7004BA289F507B00D3B197 /* CarListingChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7004B9289F507B00D3B197 /* CarListingChallengeApp.swift */; };
 		BE7004BC289F507B00D3B197 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7004BB289F507B00D3B197 /* ContentView.swift */; };
 		BE7004BE289F507E00D3B197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE7004BD289F507E00D3B197 /* Assets.xcassets */; };
 		BE7004C1289F507E00D3B197 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE7004C0289F507E00D3B197 /* Preview Assets.xcassets */; };
+		BE7004C9289F53FD00D3B197 /* car_list.json in Resources */ = {isa = PBXBuildFile; fileRef = BE7004C8289F53FD00D3B197 /* car_list.json */; };
+		BEAA326D289FE18400ABACD9 /* CarListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAA326C289FE18400ABACD9 /* CarListItem.swift */; };
+		BEAA326F289FE36300ABACD9 /* CarListSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAA326E289FE36300ABACD9 /* CarListSelection.swift */; };
+		BEAA3271289FF18E00ABACD9 /* Cars.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEAA3270289FF18E00ABACD9 /* Cars.xcassets */; };
+		BEAA327628A02AAB00ABACD9 /* CarListBasicExpandableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAA327528A02AAB00ABACD9 /* CarListBasicExpandableView.swift */; };
+		BEAA327B28A054F600ABACD9 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAA327A28A054F600ABACD9 /* Star.swift */; };
+		BEAA327E28A05CBC00ABACD9 /* NavAppearanceModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAA327D28A05CBC00ABACD9 /* NavAppearanceModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE5444D028A1BCFD00E0A14B /* FilterSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSheetView.swift; sourceTree = "<group>"; };
 		BE7004B6289F507B00D3B197 /* Car Listing App Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Car Listing App Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE7004B9289F507B00D3B197 /* Car_Listing_App_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car_Listing_App_ChallengeApp.swift; sourceTree = "<group>"; };
+		BE7004B9289F507B00D3B197 /* CarListingChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListingChallengeApp.swift; sourceTree = "<group>"; };
 		BE7004BB289F507B00D3B197 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE7004BD289F507E00D3B197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE7004C0289F507E00D3B197 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE7004C8289F53FD00D3B197 /* car_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = car_list.json; sourceTree = "<group>"; };
+		BEAA326C289FE18400ABACD9 /* CarListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListItem.swift; sourceTree = "<group>"; };
+		BEAA326E289FE36300ABACD9 /* CarListSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListSelection.swift; sourceTree = "<group>"; };
+		BEAA3270289FF18E00ABACD9 /* Cars.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Cars.xcassets; sourceTree = "<group>"; };
+		BEAA327528A02AAB00ABACD9 /* CarListBasicExpandableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarListBasicExpandableView.swift; sourceTree = "<group>"; };
+		BEAA327A28A054F600ABACD9 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		BEAA327D28A05CBC00ABACD9 /* NavAppearanceModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavAppearanceModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +67,12 @@
 		BE7004B8289F507B00D3B197 /* Car Listing App Challenge */ = {
 			isa = PBXGroup;
 			children = (
-				BE7004B9289F507B00D3B197 /* Car_Listing_App_ChallengeApp.swift */,
-				BE7004BB289F507B00D3B197 /* ContentView.swift */,
+				BEAA327C28A05CAB00ABACD9 /* Modifiers */,
+				BEAA327928A054EE00ABACD9 /* Shapes */,
+				BEAA327228A00D7700ABACD9 /* Views */,
+				BEAA326B289FE16700ABACD9 /* Models */,
+				BE7004C7289F53F100D3B197 /* Resources */,
+				BE7004B9289F507B00D3B197 /* CarListingChallengeApp.swift */,
 				BE7004BD289F507E00D3B197 /* Assets.xcassets */,
 				BE7004BF289F507E00D3B197 /* Preview Content */,
 			);
@@ -65,6 +85,50 @@
 				BE7004C0289F507E00D3B197 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE7004C7289F53F100D3B197 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE7004C8289F53FD00D3B197 /* car_list.json */,
+				BEAA3270289FF18E00ABACD9 /* Cars.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BEAA326B289FE16700ABACD9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BEAA326C289FE18400ABACD9 /* CarListItem.swift */,
+				BEAA326E289FE36300ABACD9 /* CarListSelection.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BEAA327228A00D7700ABACD9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BE7004BB289F507B00D3B197 /* ContentView.swift */,
+				BEAA327528A02AAB00ABACD9 /* CarListBasicExpandableView.swift */,
+				BE5444D028A1BCFD00E0A14B /* FilterSheetView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BEAA327928A054EE00ABACD9 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				BEAA327A28A054F600ABACD9 /* Star.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		BEAA327C28A05CAB00ABACD9 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				BEAA327D28A05CBC00ABACD9 /* NavAppearanceModifier.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +190,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE7004C1289F507E00D3B197 /* Preview Assets.xcassets in Resources */,
+				BE7004C9289F53FD00D3B197 /* car_list.json in Resources */,
+				BEAA3271289FF18E00ABACD9 /* Cars.xcassets in Resources */,
 				BE7004BE289F507E00D3B197 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +203,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEAA326D289FE18400ABACD9 /* CarListItem.swift in Sources */,
 				BE7004BC289F507B00D3B197 /* ContentView.swift in Sources */,
-				BE7004BA289F507B00D3B197 /* Car_Listing_App_ChallengeApp.swift in Sources */,
+				BE5444D128A1BCFD00E0A14B /* FilterSheetView.swift in Sources */,
+				BEAA326F289FE36300ABACD9 /* CarListSelection.swift in Sources */,
+				BEAA327B28A054F600ABACD9 /* Star.swift in Sources */,
+				BEAA327E28A05CBC00ABACD9 /* NavAppearanceModifier.swift in Sources */,
+				BE7004BA289F507B00D3B197 /* CarListingChallengeApp.swift in Sources */,
+				BEAA327628A02AAB00ABACD9 /* CarListBasicExpandableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +339,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Car Listing App Challenge/Preview Content\"";
-				DEVELOPMENT_TEAM = RW7Y9G4UCW;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -280,7 +352,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.exec-tools.Car-Listing-App-Challenge";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.challenge.Car-Listing-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -296,7 +368,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Car Listing App Challenge/Preview Content\"";
-				DEVELOPMENT_TEAM = RW7Y9G4UCW;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -309,7 +381,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.exec-tools.Car-Listing-App-Challenge";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.challenge.Car-Listing-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
